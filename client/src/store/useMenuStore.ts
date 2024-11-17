@@ -69,7 +69,7 @@ import { useRestaurantStore } from "./useRestaurantStore";
 
 const API_END_POINT = process.env.NODE_ENV === "development" 
   ? "http://localhost:8000/api/v1/menu" 
-  : "https://food-app-yt.onrender.com/api/v1/menu";
+  : "https://zoodeats.onrender.com/api/v1/menu";
 
 axios.defaults.withCredentials = true;
 
